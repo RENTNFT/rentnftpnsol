@@ -12,9 +12,21 @@ body {
    line-height: 1.6;
 }
 body {
-    background: linear-gradient(to right, #8A2BE2, #32CD32, #1E90FF); /* Purple, Green, Blue gradient */
-    font-family: Arial, sans-serif;
-    color: white;
+    background: linear-gradient(45deg, #9b59b6, #2ecc71, #3498db, #f39c12, #e74c3c, #8e44ad, #1abc9c, #f1c40f, #34495e, #16a085);
+    background-size: 200% 200%;
+    animation: gradientShift 5s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
 }
 
 
