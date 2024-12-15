@@ -37,13 +37,13 @@ nav ul li a {
 nav ul li a:hover {
    color: #007bff; /* Blue hover effect */
 }
-
 .hero {
-   background: #000; /* Pure black for hero section */
+   background: url('img2.webp') no-repeat center center/cover; /* Background image */
    color: white;
    padding: 4rem 0;
    text-align: center;
 }
+
 
 .hero h1 {
    font-size: 3rem;
