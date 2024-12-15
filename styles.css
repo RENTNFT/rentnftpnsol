@@ -39,7 +39,7 @@ nav ul li a:hover {
 }
 .hero {
     position: relative;
-    background: url('img2.webp') no-repeat center center/cover; /* Background image */
+    background: url('img2.webp') no-repeat center center/cover;
     color: white;
     padding: 4rem 0;
     text-align: center;
@@ -55,14 +55,17 @@ nav ul li a:hover {
     color: white;
     text-align: center;
     padding: 4rem 0;
-    z-index: 1; /* Make sure the overlay is on top */
+    z-index: 1; /* Overlay on top of the background */
+}
+
+.hero .hero-content {
+    position: relative;
+    z-index: 2; /* Make sure the content stays above the overlay */
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    position: relative;
-    z-index: 2; /* Keep the text above the overlay */
 }
 
 .cta-btn {
