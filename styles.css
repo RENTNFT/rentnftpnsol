@@ -11,6 +11,12 @@ body {
    color: #f1f1f1; /* Light text color for contrast */
    line-height: 1.6;
 }
+body {
+    background: linear-gradient(to right, #8A2BE2, #32CD32, #1E90FF); /* Purple, Green, Blue gradient */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
 
 header {
    background: #222; /* Darker shade for header */
